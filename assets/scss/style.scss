@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rye&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+#letterChoice li, #wordToFind li {
+  display : inline-block;
+  margin : 10px;
+}
+
+ul, li {
+  padding : 0;
+  margin: 0;
+}
+
+.btn {
+  margin : 0px 0px 0px;
+}
+
+.dejaChoisi {
+  opacity : 0.4;
+}
+
+body {
+  background-color: rgb(31, 72, 85);
+  color : white;
+}
+
+.hauteurEcran {
+  min-height: 100vh;
+}
+
+#canvasHangman {
+  // background-color: rgb(125, 171, 177); 
+  width: 70%;
+  height: auto;
+};
+
+// .canvas{
+//   display: block;
+//   border : solid white 2px
+// }
+
+img {
+  width: 100%;
+  height: auto;
+};
