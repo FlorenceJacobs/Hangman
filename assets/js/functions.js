@@ -38,9 +38,10 @@ const getMotsMapping = (mot) => {
     const arrayMot = mot.split("");
     const motsMapping = arrayMot.map((lettre,i)=> {
         let isVisible = false;
-        if (i==0 || i==arrayMot.length-1){
-            isVisible = true;
-        }
+        //Premiere et derniere lettres visibles
+        //if (i==0 || i==arrayMot.length-1){
+        //    isVisible = true;
+        //}
         return {
             lettre : lettre,
             isVisible : isVisible
